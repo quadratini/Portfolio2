@@ -1,0 +1,12 @@
+.navbar {
+    text-align: center;
+}
+
+.navbarItem {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.why {
+    align-items: center;
+}
