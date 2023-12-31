@@ -1,28 +1,10 @@
-import '/components/navbar.css'
-
-function ProjectHolder() {
-  return (
-    <div>
-      <p>A giant square</p>
-    </div>
-  );
-}
-
-function NavBar() {
-  return (
-    <div className="navbar">
-      <a className="navbarItem">Home</a>
-      <a className="navbarItem">About</a>
-    </div>
-  );
-}
+import './components/navbar.css';
+import HeroSection from './components/HeroSection';
 
 export default function Home() {
   return (
-    <div>
-      <NavBar />
-      <p>Hello</p>
-      <ProjectHolder />
-    </div>
+    <main className="flex min-h-screen flex-col bg-[#121212] container mx-auto px-12 py-4">
+      <HeroSection />
+    </main>
   );
 }                                       
