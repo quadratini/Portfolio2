@@ -1,5 +1,5 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
 const HeroSection = () => {
     return (
@@ -7,7 +7,7 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12">
           <div className="col-span-7 place-self-center">
             <h1 className="text-white mb-4 text-6xl font-extrabold">
-              Hi! I'm Ronny
+              Hi! I&apos;m Ronny
             </h1>
             <p className="text-[#ADB7BE] text-lg mb-6 lg:text-xl">
               DUMMY TEXT LOREM IPSUM HAHAHA ABC here it is... hello... how are
