@@ -27,7 +27,7 @@ const HeroSection = () => {
               <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-violet-500 to-blue-700 text-white">
                 Hire Me
               </button>
-              <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-violet-500 to-blue-700 text-white">
+              <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-violet-500 to-blue-700 text-white mt-3">
                 Download CV
               </button>
             </div>
