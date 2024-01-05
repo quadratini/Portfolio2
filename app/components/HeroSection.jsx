@@ -30,10 +30,10 @@ const HeroSection = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
             <div>
-              <button className="px-6 py-3 rounded-full mr-4 bg-white hover:bg-slate-200 text-black">
+              <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 to-blue-700 text-white">
                 Hire Me
               </button>
-              <button className="px-6 py-3 rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
+              <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 to-blue-700 border-white mt-3">
                 Download CV
               </button>
             </div>
