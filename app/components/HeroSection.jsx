@@ -24,10 +24,10 @@ const HeroSection = () => {
               "Everyday, I'm a little bit better."
             </p>
             <div>
-              <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 to-blue-700 text-white">
+              <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-violet-500 to-blue-700 text-white">
                 Hire Me
               </button>
-              <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 to-blue-700 border-white mt-3">
+              <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-violet-500 to-blue-700 text-white">
                 Download CV
               </button>
             </div>
