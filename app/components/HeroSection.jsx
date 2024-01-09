@@ -14,7 +14,7 @@ const HeroSection = () => {
               </span>
               <br></br>
               <TypeAnimation
-                sequence={["Web Developer", 1000, "Software Engineer", 1000]}
+                sequence={["Backend Developer", 1000, "Software Engineer", 1000]}
                 wrapper="span"
                 speed={45}
                 repeat={Infinity}
