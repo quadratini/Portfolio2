@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
@@ -27,14 +28,18 @@ const HeroSection = () => {
                 "Any fool can make something complicated. It takes a genius to
                 make it simple."
               </li>
+              <li>"the things what i must to do anyway"</li>
             </ul>
           </p>
           <div>
-            <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-violet-500 to-blue-700 text-white">
+            <Link
+              href="/#contact"
+              className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-violet-500 to-blue-700 hover:from-blue-500  text-white"
+            >
               Hire Me
-            </button>
-            <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-violet-500 to-blue-700 text-white mt-3">
-              Download CV
+            </Link>
+            <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-violet-500 to-blue-700 hover:from-blue-500 text-white mt-3">
+              Download Resume
             </button>
           </div>
         </div>
