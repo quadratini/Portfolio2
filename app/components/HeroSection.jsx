@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
+// import Resume from "../../public/Ronny_Ritprasert_Resume";
 
 const HeroSection = () => {
   return (
@@ -38,9 +39,11 @@ const HeroSection = () => {
             >
               Hire Me
             </Link>
-            <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-violet-500 to-blue-700 hover:from-blue-500 text-white mt-3">
-              Download Resume
-            </button>
+            <a href="/Ronny_Ritprasert_Resume.pdf">
+              <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-violet-500 to-blue-700 hover:from-blue-500 text-white mt-3">
+                View Resume
+              </button>
+            </a>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
