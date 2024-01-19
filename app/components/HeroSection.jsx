@@ -22,7 +22,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          <span className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             <ul>
               <li>"Everyday, I'm a little bit better."</li>
               <li>
@@ -31,7 +31,7 @@ const HeroSection = () => {
               </li>
               <li>"the things what i must to do anyway"</li>
             </ul>
-          </p>
+          </span>
           <div>
             <Link
               href="/#contact"
