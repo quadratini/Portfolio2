@@ -1,3 +1,7 @@
+## Intro
+
+This is a portfolio I created, just for fun and to learn about development, as well as discipline to keep up with coding and growing myself.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
